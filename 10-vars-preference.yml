@@ -6,9 +6,9 @@
   # vars_files:
   # - course.yml
   vars_prompt:
-  - name: NAME
-    prompt: what is NAME?
-    private: false
+  # - name: NAME
+  #   prompt: what is NAME?
+  #   private: false
   tasks:
   - name: testing variables preference
     # vars:
@@ -21,4 +21,5 @@
 # 2 task level
 # 3 vars-files
 # 4 play level
-# 5 inventory
+# 5 prompt
+# 6 inventory

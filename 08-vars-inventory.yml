@@ -1,8 +1,7 @@
-- name: variables from files
+- name: variables from inventory
   hosts: local
   connection: local
-  vars_files:
-  - course.yml
+
   tasks:
   - name: print the course info
     ansible.builtin.debug:

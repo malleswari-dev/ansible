@@ -1,4 +1,4 @@
-- name: play level variables
+- name: prompt variables
   hosts: local
   connection: local
   vars_prompt:

@@ -9,9 +9,15 @@
   - name: name
     prompt: what is NAME?
     private: false
-  tasks:
-  - name: testing variables preference
-    vars:
-      NAME: task level variables
-    ansible.builtin.debug:
-      msg: "name: {{ NAME }}"  
+  # tasks:
+  # - name: testing variables preference
+  #   vars:
+  #     NAME: task level variables
+  #   ansible.builtin.debug:
+  #     msg: "name: {{ NAME }}"  
+
+
+
+# 1 args
+# 2 task level
+# 3 

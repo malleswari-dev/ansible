@@ -1,0 +1,32 @@
+<students>
+  <student>
+    <name>malleswari</name>
+    <DOB>01-01-1999</DOB>
+    <age>25</age>
+    <addresses>
+      <address type "permanent"
+        <door no>4-32</door no>
+        <street>gandhi nagar</street>
+      </address>
+      <address type "current"
+        <door no>4-32</door no>
+        <street>gandhi nagar</street>
+      </address>
+    </addresses>
+  </student>
+  <student>
+    <name>malleswari</name>
+    <DOB>01-01-1999</DOB>
+    <age>25</age>
+    <addresses>
+      <address type "permanent"
+        <door no>4-32</door no>
+        <street>gandhi nagar</street>
+      </address>
+      <address type "current"
+        <door no>4-32</door no>
+        <street>gandhi nagar</street>
+      </address>
+    </addresses>
+  </student>
+</students>

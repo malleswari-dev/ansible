@@ -1,0 +1,59 @@
+{
+    "name": "malleswari",
+    "DOB": "01-09-1999",
+    "age": 25,
+    "addresses":[
+        {
+            "type": "current",
+            "door no": 4-32,
+            "street": "gandhi nagar"
+        }
+        {
+            "type": "permanent",
+            "door no": 4-32,
+            "street": "gandhi nagar",
+            "pin": 516129
+        }
+    ],
+    "skills": ["java","devops","aws"],
+}
+{
+    "name": "malleswari",
+    "DOB": "01-09-1999",
+    "age": 25,
+    "addresses":[
+        {
+            "type": "current",
+            "door no": 4-32,
+            "street": "gandhi nagar"
+        }
+        {
+            "type": "permanent",
+            "door no": 4-32,
+            "street": "gandhi nagar",
+            "pin": 516129
+        }
+    ],
+    "skills": ["java","devops","aws"],
+}
+
+{
+    "name": "anshu",
+    "DOB": "01-09-1999",
+    "age": 25,
+    "addresses":[
+        {
+            "type": "current",
+            "door no": 4-32,
+            "street": "gandhi nagar"
+        }
+        {
+            "type": "permanent",
+            "door no": 4-32,
+            "street": "gandhi nagar",
+            "pin": 516129
+        }
+    ],
+
+    "skills": ["java","devops","aws"]
+}

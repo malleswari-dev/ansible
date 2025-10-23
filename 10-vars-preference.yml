@@ -3,8 +3,8 @@
   connection: local
   vars:
     NAME: play level variables
-  vars_files:
-  - course.yml
+  # vars_files:
+  # - course.yml
   vars_prompt:
   - name: name
     prompt: what is NAME?
@@ -20,4 +20,5 @@
 
 # 1 args
 # 2 task level
-# 3 
+# 3 vars-files
+# 4 

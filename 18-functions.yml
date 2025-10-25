@@ -30,4 +30,4 @@
 
   - name: read yml and take it into variable
     ansible.builtin.set_fact:
-      student_yml: "{{ lookup ('file', 'student.yml') | from_yml }}"    
+      student_yml: "{{ lookup ('file', 'student.yml') | from_yaml }}"    

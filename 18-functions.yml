@@ -13,7 +13,7 @@
       value: dev  
     Name: "malleswari M"
     GMAIL: info@GMAIL.COM
-    ipaddress: "345.255.12.13"  # maximum ipv4 is 255.255.255.255  
+    ipaddress: "172.36.32.67"  # "345.255.12.13"  # maximum ipv4 is 255.255.255.255  
   tasks:
   - name: default variable
     ansible.builtin.debug:

@@ -6,7 +6,7 @@
     tags:  # map or dictonary
       application: payment
       environment: dev
-    list tags:
+    listtags:
     - key: application
       value: payment
     - key: environment
@@ -26,4 +26,4 @@
 
   - name: convert list to map
     ansible.builtin.debug:
-      msg: "tags are: {{ list tags | items2dict }}"    
+      msg: "tags are: {{ listtags | items2dict }}"    

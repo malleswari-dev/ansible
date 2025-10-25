@@ -12,7 +12,8 @@
     - key: environment
       value: dev  
     Name: "malleswari M"
-    GMAIL: info@GMAIL.COM  
+    GMAIL: info@GMAIL.COM
+    ipaddress: "345.255.12.13"  # maximum ipv4 is 255.255.255.255  
   tasks:
   - name: default variable
     ansible.builtin.debug:
@@ -49,4 +50,8 @@
 
   - name: convert into lowercase
     ansible.builtin.debug:
-      msg: "{{ GMAIL | lower }}"    
+      msg: "{{ GMAIL | lower }}" 
+
+  - name: check ip is valid or not
+    ansible.builtin.debug:
+      msg: "{{ ipaddress | ansible.utils.ipv4 }}"       

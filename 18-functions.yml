@@ -11,7 +11,8 @@
       value: payment
     - key: environment
       value: dev  
-    Name: "malleswari M"  
+    Name: "malleswari M"
+    GMAIL: info@GMAIL.COM  
   tasks:
   - name: default variable
     ansible.builtin.debug:
@@ -42,6 +43,10 @@
       dest: ./student-data.json
       content: "{{ student_yml | to_nice_json }}"    
 
-  - name: convert intto uppercase
+  - name: convert into uppercase
     ansible.builtin.debug:
       msg: "{{ Name | upper }}"    
+
+  - name: convert into lowercase
+    ansible.builtin.debug:
+      msg: "{{ gmail | lower }}"    

@@ -1,3 +1,4 @@
+[
 {
     "name": "malleswari",
     "DOB": "01-09-1999",
@@ -5,18 +6,19 @@
     "addresses":[
         {
             "type": "current",
-            "door no": 4-32,
+            "door_no": "4-31",
             "street": "gandhi nagar"
-        }
+        },
         {
             "type": "permanent",
-            "door no": 4-32,
+            "door_no": "4-31",
             "street": "gandhi nagar",
             "pin": 516129
         }
     ],
-    "skills": ["java","devops","aws"],
-}
+    "skills": ["java","devops","aws"]
+} ,
+
 {
     "name": "malleswari",
     "DOB": "01-09-1999",
@@ -24,18 +26,18 @@
     "addresses":[
         {
             "type": "current",
-            "door no": 4-32,
+            "door_no": "4-32",
             "street": "gandhi nagar"
-        }
+        },
         {
             "type": "permanent",
-            "door no": 4-32,
+            "door_no": "4-32",
             "street": "gandhi nagar",
             "pin": 516129
         }
     ],
-    "skills": ["java","devops","aws"],
-}
+    "skills": ["java","devops","aws"]
+},
 
 {
     "name": "anshu",
@@ -44,12 +46,12 @@
     "addresses":[
         {
             "type": "current",
-            "door no": 4-32,
+            "door_no": "4-32",
             "street": "gandhi nagar"
-        }
+        },
         {
             "type": "permanent",
-            "door no": 4-32,
+            "door_no": "4-32",
             "street": "gandhi nagar",
             "pin": 516129
         }
@@ -57,3 +59,4 @@
 
     "skills": ["java","devops","aws"]
 }
+]
